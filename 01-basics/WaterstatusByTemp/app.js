@@ -35,4 +35,6 @@ if (celsius <= 0) {
     waterState = "It's liquid!"
 }   
 
+console.log("Water state:")
+
 console.log(waterState)
