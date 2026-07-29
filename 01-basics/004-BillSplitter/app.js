@@ -6,7 +6,6 @@ Concepts practiced:
 - Arithmetic operators
 - Console output
 - Template literals
-- Explicit type conversion
 Learned:
 
 Date:
