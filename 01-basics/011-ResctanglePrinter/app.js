@@ -19,5 +19,6 @@ let columns = 6
 
 let symbol = "*"
 
+for (let i  = 1; i <= Rows; i++){
     console.log(symbol.repeat(columns))
 }
