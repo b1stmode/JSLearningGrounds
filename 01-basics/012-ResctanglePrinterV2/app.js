@@ -1,5 +1,5 @@
 /*
-Project: Rectangle Printer
+Project: Rectangle PrinterV2
 
 Concepts practiced:
 - Variables
@@ -14,11 +14,15 @@ Date:
 time spent on the drill: 3.5 minutes
 */
 
-let Rows = 3
+let Rows = 4
 let columns = 6
 
 let symbol = "*"
 
 for (let i  = 1; i <= Rows; i++){
-    console.log(symbol.repeat(columns))
+    for(let j = 1; j <= columns; j++){
+        newSymbol = symbol.repeat(columns)
+    }
+    console.log(newSymbol)
+    
 }
