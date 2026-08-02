@@ -5,7 +5,7 @@ Concepts practiced:
 - Variables
 - Arithmetic operators
 - Console output
-- for loops
+- ** Nested for loops **
 
 
 Date:
@@ -20,9 +20,9 @@ let columns = 6
 let symbol = "*"
 
 for (let i  = 1; i <= Rows; i++){
-    for(let j = 1; j <= columns; j++){
-        newSymbol = symbol.repeat(columns)
+    for(let j = 1; j < columns; j++){
+        symbol += "*"
     }
-    console.log(newSymbol)
-    
+    console.log(symbol)
+    symbol = "*"
 }
