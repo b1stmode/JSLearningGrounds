@@ -3,7 +3,6 @@ Project: Inventory Search
 
 Concepts practiced:
 - Variables
-- Arithmetic operators
 - Console output
 - arrays
 - array methods
@@ -12,7 +11,7 @@ Concepts practiced:
 Date:
 2026-08-04
 
-time spent on the drill:  minutes
+time spent on the drill: 3 minutes
 */
 
 let Inventory = ["Water", "IFAK", "Map", "Radio", "Knife"]
